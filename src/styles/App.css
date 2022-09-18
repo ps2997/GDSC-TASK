@@ -92,3 +92,24 @@
   color: black;
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 480px) {
+  .box-container {
+    width: 90vw;
+    top: 45%;
+    height: 60%;
+  }
+  .body {
+    padding: 20px;
+  }
+  .btn {
+    margin-left: 25%;
+  }
+  .footerBody p {
+    font-size: 20px;
+  }
+  .footerBody a {
+    font-size: 18px;
+  }
+}
